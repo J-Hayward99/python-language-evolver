@@ -1,0 +1,149 @@
+{
+    "en": {
+        "name": "English",
+        "dialects": [
+            "en-US",
+            "en-GB",
+            "en-AU",
+            "en-CA",
+            "en-IN"
+        ]
+    },
+    "es": {
+        "name": "Spanish",
+        "dialects": [
+            "es-ES",
+            "es-MX",
+            "es-AR",
+            "es-CO"
+        ]
+    },
+    "pt": {
+        "name": "Portuguese",
+        "dialects": [
+            "pt-PT",
+            "pt-BR"
+        ]
+    },
+    "fr": {
+        "name": "French",
+        "dialects": [
+            "fr-FR",
+            "fr-CA",
+            "fr-BE",
+            "fr-CH"
+        ]
+    },
+    "de": {
+        "name": "German",
+        "dialects": [
+            "de-DE",
+            "de-AT",
+            "de-CH"
+        ]
+    },
+    "zh-CN": {
+        "name": "Chinese (Simplified)",
+        "dialects": [
+            "zh-CN",
+            "zh-SG"
+        ]
+    },
+    "zh-TW": {
+        "name": "Chinese (Traditional)",
+        "dialects": [
+            "zh-TW",
+            "zh-HK"
+        ]
+    },
+    "ar": {
+        "name": "Arabic",
+        "dialects": [
+            "ar-SA",
+            "ar-EG",
+            "ar-AE",
+            "ar-MA"
+        ]
+    },
+    "hi": {
+        "name": "Hindi",
+        "dialects": [
+            "hi-IN"
+        ]
+    },
+    "ru": {
+        "name": "Russian",
+        "dialects": [
+            "ru-RU"
+        ]
+    },
+    "ja": {
+        "name": "Japanese",
+        "dialects": [
+            "ja-JP"
+        ]
+    },
+    "ko": {
+        "name": "Korean",
+        "dialects": [
+            "ko-KR"
+        ]
+    },
+    "it": {
+        "name": "Italian",
+        "dialects": [
+            "it-IT",
+            "it-CH"
+        ]
+    },
+    "nl": {
+        "name": "Dutch",
+        "dialects": [
+            "nl-NL",
+            "nl-BE"
+        ]
+    },
+    "sv": {
+        "name": "Swedish",
+        "dialects": [
+            "sv-SE"
+        ]
+    },
+    "no": {
+        "name": "Norwegian",
+        "dialects": [
+            "nb-NO",
+            "nn-NO"
+        ]
+    },
+    "pl": {
+        "name": "Polish",
+        "dialects": [
+            "pl-PL"
+        ]
+    },
+    "tr": {
+        "name": "Turkish",
+        "dialects": [
+            "tr-TR"
+        ]
+    },
+    "vi": {
+        "name": "Vietnamese",
+        "dialects": [
+            "vi-VN"
+        ]
+    },
+    "id": {
+        "name": "Indonesian",
+        "dialects": [
+            "id-ID"
+        ]
+    },
+    "th": {
+        "name": "Thai",
+        "dialects": [
+            "th-TH"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+[project]
+name = "python-language-evolver"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "googletrans>=4.0.2",
+    "pandas>=3.0.2",
+    "phonemizer>=3.3.0",
+    "pyarabic>=0.6.15",
+    "pypinyin>=0.55.0",
+    "pytest>=9.0.3",
+    "qalsadi>=0.5.1",
+    "tqdm>=4.67.3",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
