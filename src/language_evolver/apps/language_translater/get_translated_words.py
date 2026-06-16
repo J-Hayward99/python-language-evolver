@@ -92,6 +92,14 @@ def _save_language_translations(
 
 
 def translate_words(lang_code: str) -> None:
+    """_summary_.
+
+    :param lang_code: _description_
+    :type lang_code: str
+
+    :returns: _description_
+    :rtype: None
+    """
     # Function Start Message & Bootstrapping
     lang_name = language_codes_and_names[lang_code]
     print(f"Translating EN (English) into {lang_code.upper()} ({lang_name}).")
@@ -99,7 +107,7 @@ def translate_words(lang_code: str) -> None:
     # Check for Existing Save File & Skip
     output_file_path = translations_path / f"{lang_code}.csv"
     if output_file_path.exists():
-        print(f"- {lang_code}.csv already exists... Skipping")
+        print(f"- Found {lang_code}.csv, skipping translation")
         return None
 
     # Get English Words

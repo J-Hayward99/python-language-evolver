@@ -1,4 +1,4 @@
-from language_evolver.models.structs import InputLanguage
+from ._models import InputLanguage
 from language_evolver.constants import codes_available, lang_names
 
 
@@ -32,19 +32,3 @@ def _find_language(language: str | None) -> InputLanguage | None:
         return None
 
     return struct_lang
-
-
-def get_inputted_language(inputted_language: str | None) -> InputLanguage:
-    prompt = "What language code do you want to use? "
-    while True:
-        if inputted_language is None:
-            inputted_language = input(prompt)
-
-        tested_language = _find_language(inputted_language)
-
-        if tested_language is not None:
-            return tested_language
-
-        print(f"The language {inputted_language} doesn't exist, try again.")
-        print()
-        inputted_language = input(prompt)

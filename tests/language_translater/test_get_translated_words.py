@@ -1,4 +1,4 @@
-from language_evolver.apps.get_translated_words import (
+from language_evolver.apps.language_translater.get_translated_words import (
     _read_and_clean_english_words,
 )
 

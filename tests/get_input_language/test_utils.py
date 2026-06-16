@@ -1,7 +1,6 @@
-from language_evolver.apps.get_input_language import (
+from language_evolver.apps.get_input_language._utils import (
     _find_language,
     _get_lang_code,
-    get_inputted_language,
 )
 
 
@@ -18,7 +17,3 @@ def test_get_lang_code():
 
 def test_find_language():
     assert _find_language("en")
-
-
-def test_get_inputted_language():
-    assert get_inputted_language("en")

@@ -15,9 +15,14 @@ language_codes_and_names = json.loads(
 language_dialects = json.loads(
     (core_data_path / "lang_dialects_google.json").read_text(encoding="utf-8")
 )
+code_to_espeak = json.loads(
+    (core_data_path / "codes_to_espeak.json").read_text(encoding="utf-8")
+)
 
 # # Output Paths
 translations_path = data_path / "translations"
+
+phonetics_path = data_path / "phonetics"
 
 
 # Derived Files
