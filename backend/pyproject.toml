@@ -1,0 +1,28 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.143.1",
+    "googletrans>=4.0.2",
+    "pandas>=3.0.2",
+    "phonemizer>=3.3.0",
+    "pyarabic>=0.6.15",
+    "pycountry>=26.2.16",
+    "pydantic>=2.13.4",
+    "pydantic-settings>=2.16.0",
+    "pypinyin>=0.55.0",
+    "sqlalchemy>=2.1.4",
+    "tqdm>=4.67.3",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "mypy>=2.4.0",
+    "pytest>=9.0.3",
+    "ruff>=0.16.10",
+]
